@@ -1,0 +1,45 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.game-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.turn-tracker {
+    margin-bottom: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+.row {
+  display: flex;
+}
+
+.square {
+  width: 10vmin;
+  aspect-ratio: 1/1;
+  border: 1px solid black;
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square:hover {
+    cursor: pointer;
+}
